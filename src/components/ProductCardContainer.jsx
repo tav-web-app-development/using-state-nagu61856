@@ -1,4 +1,5 @@
-import ProductCard from "./ProductCard";
+import ProductCard from "./ProductCard.jsx";
+
 
 export default function ProductCardContainer({ products }) {
   const productsJsx = products.map((product) => (
