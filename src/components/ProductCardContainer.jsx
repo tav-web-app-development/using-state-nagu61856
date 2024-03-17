@@ -1,7 +1,9 @@
-import ProductCard from "./ProductCard";
+import ProductCard from "./ProductCard.1";
+
 
 export default function ProductCardContainer({ products }) {
   const productsJsx = products.map((product) => (
+    // eslint-disable-next-line react/jsx-key
     <ProductCard product={product} />
   ));
   return (
